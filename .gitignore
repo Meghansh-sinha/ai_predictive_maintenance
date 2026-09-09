@@ -1,0 +1,21 @@
+# Secrets (§5.1)
+.env
+
+# Runtime output (§1.1)
+logs/
+!logs/.gitkeep
+reports/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments / editors
+.venv/
+venv/
+.idea/
+.vscode/
